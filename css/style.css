@@ -4,9 +4,21 @@
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   list-style: none;
+  color: inherit;
 }
 
-a {
+img{
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  height: 4000px;
+}
+
+h1,
+a,
+span {
   font-family: "Poppins";
 }
 
@@ -25,7 +37,6 @@ p {
   gap: 20px 40px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   padding: 12px;
   max-width: 1200px;
   margin: 0 auto;
@@ -62,8 +73,77 @@ p {
   transition: 0.4s;
 }
 
-@media (max-width: 700px){
-  .header-menu a::after{
+.introducao-bg {
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: inset  0px -120px #ffffff;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.introducao-conteudo {
+  position: relative;
+  align-self: flex-end;
+  padding-bottom: 200px;
+}
+
+.introducao-conteudo::after {
+  content: url(../img/dec/bottom-left.svg);
+  position: absolute;
+  bottom: -40px;
+  left: -135px;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.125;
+}
+.introducao h1 span {
+  color: #ffbb00;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #b2b2b2;
+  letter-spacing: 1px;
+}
+
+.introducao a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.125;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border-radius: 5px;
+  background: linear-gradient(#ffbf00, #f2a60c);
+  box-shadow: 0 1px 2px #0000001a;
+  color: #332200;
+}
+
+.introducao a:hover {
+  background: linear-gradient(#ffb60d, #e58317);
+}
+
+@media (max-width: 700px) {
+  .header-menu a::after {
     content: none;
   }
 
