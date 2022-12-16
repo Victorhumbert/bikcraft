@@ -54,7 +54,6 @@
 }
 .link:hover:after {
   color: var(--cor-1);
-  width: 110%;
   transition: 0.3s;
 }
 
