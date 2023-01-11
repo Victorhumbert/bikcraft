@@ -9,7 +9,7 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px 20px 0px ;
+  padding: 20px 0px 20px 0px;
 }
 
 .header-menu {
@@ -40,6 +40,16 @@
   transition: 0.4s;
 }
 
+#seg::after {
+  width: 100%;
+}
+
+#bic::after {
+  width: 100%;
+}
+#ctt::after {
+  width: 100%;
+}
 @media (max-width: 700px) {
   .header-menu a::after {
     content: none;
@@ -60,6 +70,15 @@
     background-color: var(--cor-10);
     transition-duration: 0.2s;
   }
+  #seg {
+    background-color: var(--cor-10);
+  }
+  #bic {
+    background-color: var(--cor-10);
+  }
+  #ctt {
+    background-color: var(--cor-10);
+  }
 }
 
 @media (max-width: 600px) {
@@ -73,10 +92,10 @@
 }
 
 @media (max-width: 500px) {
-  .header{
+  .header {
     justify-content: center;
   }
-  .header-menu{
+  .header-menu {
     justify-content: center;
   }
 }
