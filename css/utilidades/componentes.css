@@ -16,6 +16,8 @@
   box-shadow: 0 1px 2px #0000001a;
   color: var(--cor-p5);
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
