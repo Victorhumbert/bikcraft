@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(var(--cor-11) 600px,var(--cor-1) 0);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0);
 }
 
 .contato {
@@ -14,12 +14,14 @@
 }
 
 .contato-dados {
-  background: var(--cor-12);
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
   border-radius: 4px 0 0 4px;
 }
 
 .contato-formulario {
-  background: var(--cor-0);
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
   border-radius: 0 4px 4px 0;
 }
 
@@ -70,20 +72,24 @@
   .contato {
     grid-template-columns: 1fr;
   }
+  .contato-dados {
+    background: var(--cor-12);
+  }
   .contato-dados,
-  .contato-formulario{
+  .contato-formulario {
     padding: 20px;
   }
-  .contato-dados{
+  .contato-dados {
     border-radius: 5px 5px 0 0;
   }
-  .contato-formulario{
+  .contato-formulario {
     border-radius: 0 0 5px 5px;
   }
-  .contato-dados h2,.contato-meios a:last-child{
+  .contato-dados h2,
+  .contato-meios a:last-child {
     margin-bottom: 32px;
   }
-  .contato-redes{
+  .contato-redes {
     margin-bottom: 12px;
   }
 }

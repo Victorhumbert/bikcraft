@@ -1,7 +1,8 @@
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--cor-p1);
+  background: var(--cor-p1) url(../../img/dec/bottom-right-p.svg) no-repeat
+    bottom 40px right 40px;
   overflow: hidden;
 }
 
@@ -42,13 +43,18 @@
   content: "”";
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
 
-@media(max-width:800px){
-  .depoimento{
+@media (max-width: 800px) {
+  .depoimento {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .depoimento-conteudo{
+  .depoimento-conteudo {
     padding: 40px 20px;
     justify-self: center;
   }

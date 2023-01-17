@@ -6,6 +6,8 @@
   margin-right: auto;
 }
 
+
+/* ---------Botão----------- */
 .botao {
   display: inline-block;
   font: 700 1.125rem/1.5 "poppins", sans-serif;
@@ -58,6 +60,8 @@
   }
 }
 
+
+/* ---------Link---------- */
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -82,10 +86,16 @@
   transition: 0.3s;
 }
 
+
+/* -------Titulo Interno-------- */
 .titulo-bg {
   background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.titulo{
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo span {
