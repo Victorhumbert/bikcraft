@@ -34,20 +34,8 @@
   background-color: var(--cor-0);
 }
 
-.header-menu a:hover:after {
-  display: block;
-  width: 100%;
-  transition: 0.4s;
-}
-
-#seg::after {
-  width: 100%;
-}
-
-#bic::after {
-  width: 100%;
-}
-#ctt::after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 @media (max-width: 700px) {
@@ -70,14 +58,8 @@
     background-color: var(--cor-10);
     transition-duration: 0.2s;
   }
-  #seg {
-    background-color: var(--cor-10);
-  }
-  #bic {
-    background-color: var(--cor-10);
-  }
-  #ctt {
-    background-color: var(--cor-10);
+  .header-menu a.ativo {
+    background: var(--cor-10);
   }
 }
 

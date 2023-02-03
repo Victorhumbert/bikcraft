@@ -16,12 +16,6 @@
   padding-bottom: 200px;
 }
 
-.introducao-conteudo::after {
-  content: url(../img/dec/bottom-left.svg);
-  position: absolute;
-  bottom: -40px;
-  left: -135px;
-}
 
 .introducao img {
   width: 100%;
