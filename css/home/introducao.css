@@ -1,6 +1,5 @@
 .introducao-bg {
-  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 160px
-    left 40px;
+  background: var(--cor-12);
   box-shadow: inset 0px -120px var(--cor-0);
 }
 
@@ -15,7 +14,6 @@
   align-self: flex-end;
   padding-bottom: 200px;
 }
-
 
 .introducao img {
   width: 100%;

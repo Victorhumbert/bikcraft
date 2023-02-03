@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="seguros">
@@ -40,7 +41,7 @@
     </div>
 
     <div class="seguros container">
-      <div class="seguros-item">
+      <div class="seguros-item fadeInLeft" data-anime="200">
         <h3 class="font-1-xl cor-4">PRATA</h3>
         <span class="font-1-xl cor-0">R$199 <span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-1-s cor-0">
@@ -51,7 +52,7 @@
         </ul>
         <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
-      <div class="seguros-item">
+      <div class="seguros-item fadeInRight" data-anime="400">
         <h3 class="font-1-xl cor-p1">OURO</h3>
         <span class="font-1-xl cor-0">R$299 <span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-1-s cor-0">
@@ -132,10 +133,6 @@
         <dt><button class="font-1-m-b" aria-controls="pergunta6" aria-expanded="false">Quantas trocas posso fazer ao ano?</button></dt>
         <dd id="pergunta6" class="font-2-s cor-9">Aceitamos catões de crédito com as bandeira: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e boleto através do PagSeguro</dd>
       </div>
-      <div>
-        <dt><button class="font-1-m-b" aria-controls="pergunta7" aria-expanded="false">Qual Bikcraft devo escolher para o meu tamanho?</button></dt>
-        <dd id="pergunta7" class="font-2-s cor-9">Aceitamos catões de crédito com as bandeira: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e boleto através do PagSeguro</dd>
-      </div>
     </dl>
   </article>
 
@@ -171,6 +168,7 @@
       <p class="footer-copy font-2-m cor-6">Patatiz © Alguns direitos reservados</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>
 
