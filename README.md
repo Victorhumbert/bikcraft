@@ -1,1 +1,1 @@
-Site feito orientação no curso da Origamid
+Site feito seguindo orientação no curso da Origamid
