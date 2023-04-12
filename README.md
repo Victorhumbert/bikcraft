@@ -1,1 +1,1 @@
-Site feito seguindo orientação no curso da Origamid
+Site fictício de vendas de bicicletas feito durante o curso de HTML e CSS para iniciantes da Origamid, nele utilizo HTML, CSS e um pouco de JavaScript
